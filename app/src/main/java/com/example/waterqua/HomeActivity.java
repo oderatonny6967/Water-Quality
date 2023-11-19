@@ -16,13 +16,21 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
        // SharedPreferences sharedPreferences = getSharedPreferences("shared_prefs", Context.MODE_PRIVATE);
        // String username = sharedPreferences.getString("usename" , "").toString();
-        Toast.makeText(getApplicationContext(), "Hi  " + "Welcome " , Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Hi  " + "Welcome Home " , Toast.LENGTH_SHORT).show();
 
         CardView waterNews = findViewById(R.id.cardWaternews);
         waterNews.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, ArticleActivity.class));
+            }
+        });
+        CardView feedBack= findViewById(R.id.cardFeedback);
+        feedBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Hi  " + "welcome to the feedback page" , Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(HomeActivity.this, FeedbackActivity.class));
             }
         });
 

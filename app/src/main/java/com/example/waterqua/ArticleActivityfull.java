@@ -34,7 +34,7 @@ public class ArticleActivityfull extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ArticleActivityfull.this, HomeActivity.class));
+                startActivity(new Intent(ArticleActivityfull.this, ArticleActivity.class));
             }
         });
     }
