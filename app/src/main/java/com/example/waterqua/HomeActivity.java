@@ -29,10 +29,19 @@ public class HomeActivity extends AppCompatActivity {
         feedBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Hi  " + "welcome to the feedback page" , Toast.LENGTH_SHORT).show();
+
                 startActivity(new Intent(HomeActivity.this, FeedbackActivity.class));
             }
         });
+        CardView prediction1= findViewById(R.id.cardprediction);
+        prediction1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, PredictActivity.class));
+            }
+        });
+
 
     }
 
