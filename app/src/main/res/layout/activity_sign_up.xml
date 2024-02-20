@@ -102,7 +102,7 @@
         app:layout_constraintVertical_bias="0.174" />
 
     <EditText
-        android:id="@+id/editTextSignUsername"
+        android:id="@+id/bookappointmentedittext"
         android:layout_width="267dp"
         android:layout_height="54dp"
         android:background="@android:drawable/editbox_background_normal"

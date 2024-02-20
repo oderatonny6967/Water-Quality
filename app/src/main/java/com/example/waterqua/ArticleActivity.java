@@ -39,7 +39,7 @@ public class ArticleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article);
-         lst= findViewById(R.id.List);
+        lst= findViewById(R.id.List);
         btnBack=findViewById(R.id.buttonback);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override

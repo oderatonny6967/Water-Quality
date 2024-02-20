@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Water qua</string>
+    <string name="About">
+        <![CDATA[
+        <b>The Water Quality App</b> is a mobile app that provides users with up-to-date information on the quality of water. The app uses a variety of data sources, including historical data and machine learning, to provide accurate and timely predictions of water quality parameters such as pH, dissolved oxygen, temperature, and nutrient concentrations.
+        <br/><br/>
+        <b>Features:</b>
+        <ul>
+            <li>Predictions of water quality parameters.</li>
+            <li>Visualizations of water quality trends and patterns.</li>
+            <li>Information on the factors that affect water quality.</li>
+        </ul>
+        <br/>
+        <b>Benefits:</b>
+        <ul>
+            <li>Improved water quality.</li>
+            <li>Reduced risk of waterborne diseases.</li>
+            <li>Increased public awareness of water quality issues.</li>
+            <li>Improved decision-making about water usage.</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="Contact">
+            <![CDATA[
+        <b>Contact us on :</b>
+        <ul>
+            <li>Email:tonnyodera@gmail.com.</li>
+            <li>Telephone No. 0700000000</li>
+            <li>X: @Informationwaterquality.</li>
+        </ul>
+        <br/>
+        ]]>
+    </string>
 </resources>
+

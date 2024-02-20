@@ -41,6 +41,31 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, PredictActivity.class));
             }
         });
+        CardView consult= findViewById(R.id.cardconsult);
+        consult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, Consultexpert.class));
+            }
+        });
+        CardView back= findViewById(R.id.cardBack);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, SplashActivity.class));
+            }
+        });
+        CardView lastactivity= findViewById(R.id.cardLastActivity);
+        lastactivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this,DisplayInsertedPredictionActivity.class ));
+                //startActivity(new Intent(ViewpredictionActivity.this, DisplayInsertedPredictionActivity.class));
+            }
+        });
 
 
     }

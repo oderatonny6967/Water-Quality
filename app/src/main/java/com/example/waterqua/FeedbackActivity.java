@@ -61,7 +61,8 @@ public class FeedbackActivity extends AppCompatActivity {
 
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/html");
-                i.putExtra(Intent.EXTRA_EMAIL,new String("xyz@gmail.com"));
+                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"tonny.odhiambo20@students.dkut.ac.ke"});
+                //i.putExtra(Intent.EXTRA_EMAIL,new String("xyz@gmail.com"));
                 i.putExtra(Intent.EXTRA_SUBJECT, "FEEDBACK FROM THE APP");
                 i.putExtra(Intent.EXTRA_TEXT,"Message:"+editTet.getText()+"\n\n Rating:\n"+tstar.getRating() );
                 try {
