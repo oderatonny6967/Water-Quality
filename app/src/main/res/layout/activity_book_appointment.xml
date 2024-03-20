@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background1"
+    android:background="#FF00BFFF"
     android:layout_height="match_parent"
     tools:context=".BookAppointment">
 
@@ -99,7 +99,7 @@
         android:layout_height="54dp"
         android:text="WATER QUALITY TEST"
         android:textAlignment="center"
-        android:textColor="@color/design_default_color_secondary"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,24 +149,29 @@
         android:id="@+id/buttonbookappointment"
         android:layout_width="188dp"
         android:layout_height="64dp"
-        android:layout_marginTop="564dp"
         android:text="Book Appointment"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
 
     <Button
         android:id="@+id/buttonbackbook"
         android:layout_width="172dp"
         android:layout_height="52dp"
         android:text="Back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.979" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView4"

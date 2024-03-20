@@ -67,7 +67,7 @@ public class ViewpredictionActivity extends AppCompatActivity {
                     //}
                     //else {
                         db.insertPrediction(turbidity, conductivity, hardness, pH, waterQuality, recommendation);
-                        Toast.makeText(ViewpredictionActivity.this, "Data saved successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ViewpredictionActivity.this, "Saving  successfull!!!", Toast.LENGTH_SHORT).show();
                     }
 
                     // Start a new activity to display the inserted data from the database

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background1"
+    android:background="#FF00BFFF"
     android:layout_height="match_parent"
     tools:context=".ViewpredictionActivity">
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/predictionResultTextView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:text="Recommendation"
         android:textSize="30sp"/>
 

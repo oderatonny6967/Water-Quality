@@ -54,7 +54,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(HomeActivity.this, SplashActivity.class));
+                startActivity(new Intent(HomeActivity.this, LoginActivity.class));
             }
         });
         CardView lastactivity= findViewById(R.id.cardLastActivity);

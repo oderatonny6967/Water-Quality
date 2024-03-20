@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background1"
+    android:background="#FF00BFFF"
     tools:context=".ArticleActivityfull">
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="12dp"
         android:text="Water quality indicators"
-        android:textColor="@color/design_default_color_secondary"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
